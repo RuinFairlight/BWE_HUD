@@ -50,7 +50,7 @@ function BWE_HUD.CreateSettings()
                 },
                 [2] = {
                     type = "checkbox",
-                    name = "Perfer User ID over Character Name",
+                    name = "Prefer User ID over Character Name",
                     tooltip = "Use @Example instead",                    
                     disabled = not BWE_HUD.SV.target.enabled,
                     default = BWE_HUD.defaults.target.useACCID,
